@@ -154,7 +154,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">56</span>
+          <span class="site-state-item-count">57</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -201,6 +201,133 @@
     </div>
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://xuewenm.github.io/2019/04/04/SSL/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/ic_hello.png">
+      <meta itemprop="name" content="XueWen">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Wen's blog">
+      <meta itemprop="description" content="不积硅步无以至千里，不积小流何以成江海。">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Wen's blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2019/04/04/SSL/" class="post-title-link" itemprop="url">SSL&Https Server</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2019-04-04 09:27:32" itemprop="dateCreated datePublished" datetime="2019-04-04T09:27:32+08:00">2019-04-04</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-02-19 16:40:05" itemprop="dateModified" datetime="2023-02-19T16:40:05+08:00">2023-02-19</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Network/" itemprop="url" rel="index"><span itemprop="name">Network</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Network/SSL/" itemprop="url" rel="index"><span itemprop="name">SSL</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>5.9k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>21 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="SSL"><a href="#SSL" class="headerlink" title="SSL"></a>SSL</h1><blockquote>
+<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/franson-2016/p/5530671.html">一个故事教你看懂什么是数字证书，它的原理是什么?它的作用是什么？</a><br>Https协议：超文本传输安全协议，简单讲是HTTP的安全版。即HTTP下加入SSL层，HTTPS的安全基础是SSL，因此加密的详细内容就需要SSL。   </p>
+</blockquote>
+<p>SSL(SecureSocketLayer)是netscape公司提出的主要用于web的安全通信标准.<br>TLS(TransportLayerSecurity)是IETF的TLS工作组在SSL3.0基础之上提出的安全通信标准，SSL&#x2F;TLS提供的安全机制可以保证应用层数据在互联网络传输不被监听,伪造和窜改。   </p>
+<p>SSL位与应用层和 TCP&#x2F;IP之间的一层，数据经过它流出的时候被加密，再往TCP&#x2F;IP送，而数据从TCP&#x2F;IP流入之后先进入它这一层被解密，同时它也能够验证网络连接两端的身份</p>
+<p>SSL协议包含2个子协议，一个是 <em>包协议，</em> 一个是 <em>握手协议。</em> 包协议位于握手协议更下一层。</p>
+<p>SSL握手过程说简单点就是：<strong>通信双方通过不对称加密算法来协商好一个对称加密算法以及使用的key，然后用这个算法加密以后所有的数据完成应用层协议的数据交换。</strong>  </p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2019/04/04/SSL/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+	
+	<div>
+		<div>
+    
+</div>
+ 
+	</div>
+	
+	
+	
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -1320,162 +1447,6 @@
 
 
 
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://xuewenm.github.io/2019/02/28/JVM/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/ic_hello.png">
-      <meta itemprop="name" content="XueWen">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Wen's blog">
-      <meta itemprop="description" content="不积硅步无以至千里，不积小流何以成江海。">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Wen's blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2019/02/28/JVM/" class="post-title-link" itemprop="url">JVM</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2019-02-28 15:04:09" itemprop="dateCreated datePublished" datetime="2019-02-28T15:04:09+08:00">2019-02-28</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-02-07 20:16:42" itemprop="dateModified" datetime="2023-02-07T20:16:42+08:00">2023-02-07</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/Java/" itemprop="url" rel="index"><span itemprop="name">Java</span></a>
-        </span>
-          ，
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/Java/JVM/" itemprop="url" rel="index"><span itemprop="name">JVM</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>6.6k</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>24 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <!-- TOC -->
-
-<ul>
-<li><a href="#jvm">JVM</a></li>
-<li><a href="#%E4%BA%86%E8%A7%A3java%E5%86%85%E5%AD%98">了解Java内存</a></li>
-<li><a href="#%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%81%9A%E4%BA%86%E5%93%AA%E4%BA%9B%E5%B7%A5%E4%BD%9C">虚拟机做了哪些工作?</a><ul>
-<li><a href="#%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E5%BC%95%E5%8F%91gc">什么时候引发GC</a></li>
-<li><a href="#%E5%88%A4%E6%96%AD%E5%AF%B9%E8%B1%A1%E6%98%AF%E5%90%A6%E6%AD%BB%E4%BA%A1-%E5%8F%AF%E8%BE%BE%E6%80%A7%E5%88%86%E6%9E%90%E7%AE%97%E6%B3%95%E5%92%8C%E5%BC%95%E7%94%A8%E8%AE%A1%E6%95%B0%E6%B3%95">判断对象是否死亡: 可达性分析算法和引用计数法</a></li>
-<li><a href="#%E6%96%B9%E6%B3%95%E5%8C%BA%E7%9A%84%E5%9B%9E%E6%94%B6">方法区的回收</a></li>
-<li><a href="#%E5%9E%83%E5%9C%BE%E6%94%B6%E9%9B%86%E7%AE%97%E6%B3%95">垃圾收集算法</a><ul>
-<li><a href="#%E7%AE%97%E6%B3%95%E5%88%86%E7%B1%BB">算法分类:</a><ul>
-<li><a href="#%E6%A0%87%E8%AE%B0-%E6%B8%85%E9%99%A4%E7%AE%97%E6%B3%95">标记-清除算法</a></li>
-<li><a href="#%E5%A4%8D%E5%88%B6%E7%AE%97%E6%B3%95">复制算法</a></li>
-<li><a href="#%E6%A0%87%E8%AE%B0-%E6%95%B4%E7%90%86%E7%AE%97%E6%B3%95">标记-整理算法</a></li>
-<li><a href="#%E5%88%86%E4%BB%A3%E6%94%B6%E9%9B%86%E7%AE%97%E6%B3%95">分代收集算法</a></li>
-<li><a href="#%E5%88%86%E5%8C%BA%E6%94%B6%E9%9B%86">分区收集:</a></li>
-</ul>
-</li>
-<li><a href="#%E5%9E%83%E5%9C%BE%E6%94%B6%E9%9B%86%E5%99%A8">垃圾收集器</a></li>
-<li><a href="#stop-the-world">STOP THE WORLD</a></li>
-</ul>
-</li>
-<li><a href="#%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6">虚拟机类加载机制</a><ul>
-<li><a href="#java%E7%B1%BB%E5%92%8C%E6%96%B9%E6%B3%95%E5%A6%82%E4%BD%95%E5%8A%A0%E8%BD%BD">Java类和方法如何加载</a><ul>
-<li><a href="#class%E7%B1%BB%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84">Class类文件结构</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<!-- /TOC -->
-<h1 id="JVM"><a href="#JVM" class="headerlink" title="JVM"></a>JVM</h1><blockquote>
-<p>参考<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_41701956/article/details/81664921">Java虚拟机（JVM）</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/secret_breathe/article/details/80886851">java原理实现: 从虚拟机到源码</a><br><a target="_blank" rel="noopener" href="https://www.cnblogs.com/prayers/p/5515245.html">深入理解java虚拟机</a>    </p>
-</blockquote>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2019/02/28/JVM/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-	
-	<div>
-		<div>
-    
-</div>
- 
-	</div>
-	
-	
-	
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
   <nav class="pagination">
     <a class="extend prev" rel="prev" title="上一页" aria-label="上一页" href="/page/3/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" title="下一页" aria-label="下一页" href="/page/5/"><i class="fa fa-angle-right"></i></a>
   </nav>
@@ -1502,13 +1473,13 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line">&nbsp;字数:</i>
     </span>
-    <span title="站点总字数">129k</span>
+    <span title="站点总字数">163k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee">&nbsp;阅读时长:</i>
     </span>
-    <span title="站点阅读时长">7:51</span>
+    <span title="站点阅读时长">9:55</span>
   </span>
 </div>
 <div class="busuanzi-count">
